@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+:root {
+    --brandColor: #212A3E;
+    --secondaryColor: #394867;
+    --tertiaryColor: #9BA4B5;
+}
+
+body {
+    display: block;
+    height: 100%;
+    background-color: var(--tertiaryColor);
+}
+
+/* Estilos para la sección del encabezado */
+#header_elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--brandColor);
+    color: #fff;
+    padding: 30px;
+    position: sticky;
+    top: 0%;
+}
+
+#header_logo {
+    padding-right: 10px;
+}
+/* Estilos para la lista de navegación */
+#header_menu {
+    flex: 1;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: space-around;
+    list-style: none;
+    padding-right: 30px;
+}
+
+.menu-item {
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
